@@ -1,2 +1,3 @@
-# janaPortfolio
-my complete web developed portfolio
+# JanaPortfolio
+
+i hava completed my portfolio
