@@ -23,8 +23,11 @@ body {
 }
 
 .logo {
-  height: 140px;
+  height: 50px;
+  /* width: 15%; */
+  border-radius: 12px;
 }
+
 
 .container {
   padding: 10px 10%;
