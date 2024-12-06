@@ -181,7 +181,7 @@
           <a href="janardhana_resume.pdf.pdf" download class="btn btn2">Download CV</a>
         </div>
         <div class="contact-right">
-          <form name="submit-to-google-sheet">
+          <form name="form data">
             <input type="text" name="Name" placeholder="Your name" required>
             <input type="email" name="Email" placeholder="Your Email" required>
             <textarea name="Message" rows="6" placeholder="Your message"></textarea>
@@ -225,8 +225,8 @@
   </script>
   </script>
   <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwOxYL20e_NKhIbMxP2ItBXVMflbFfMALuKEY4b0bus7VABFGJ112Ye4cI0H9xygdG-/exec'
-    const form = document.forms['submit-to-google-sheet']
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxuyFBfYExlM6CxSEZzQz4Mzb8F6zfwBJRegNqo7fUjc3Qju4L2YpY5bANw_YGIkBnB/exec'
+    const form = document.forms['form data1']
     const msg = document.getElementById('msg')
 
     form.addEventListener('submit', e => {
@@ -243,11 +243,12 @@
           msg.innerHTML = "An error occured while sending the message"
           setTimeout(function () {
             msg.innerHTML = ""
-          }, 5000)
+          }, 2000)
           console.error('Error!', error.message)
         })
     })
   </script>
+ 
 </body>
 
 </html>

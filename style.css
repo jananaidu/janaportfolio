@@ -17,7 +17,7 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(123.jpeg);
+  background-image: url(pic.jpeg);
   background-size: cover;
   background-position: center;
  
@@ -398,9 +398,9 @@ nav .fas {
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 00px) {
   #header {
-    background-image: url(123.jpeg);
+    background-image: url(1234.jpeg);
   }
 
   .header-text {
