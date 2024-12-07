@@ -152,7 +152,7 @@ nav ul li a:hover::after {
 }
 
 .tab-contents ul li span {
-  color: #b54769;
+  color: #de1555;
   font-size: 14px;
 }
 
@@ -222,7 +222,7 @@ nav ul li a:hover::after {
 }
 
 .services-list div:hover {
-  background-color: #ff004f;
+  background-color: #6c0f0f;
   transform: translateY(-10px);
 }
 
@@ -255,7 +255,7 @@ nav ul li a:hover::after {
 .layer {
   width: 100%;
   height: 0%;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #71090d);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -278,7 +278,7 @@ nav ul li a:hover::after {
 
 .layer a {
   margin-top: 20px;
-  color: #ff004f;
+  color: #ad677d;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
@@ -310,7 +310,7 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-  background-color: #ff004f;
+  background-color: #e81037;
 }
 
 
@@ -328,7 +328,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-  color: #ff004f;
+  color: #a72575;
   margin-right: 15px;
   font-size: 20px;
 }
@@ -347,13 +347,13 @@ nav ul li a:hover::after {
 }
 
 .social-icons a:hover {
-  color: #ff004f;
+  color: #c40b0b;
   transform: translateY(-5px);
 }
 
 .btn.btn2 {
   display: inline-block;
-  background: #ff004f;
+  background: #b9300d;
 }
 
 .contact-right form {
@@ -390,7 +390,7 @@ form .btn2 {
 }
 
 .copyright i {
-  color: #ff004f;
+  color: #00ff1a;
 }
 
 /* ----------css for small screen------------- */
@@ -419,7 +419,7 @@ nav .fas {
   }
 
   nav ul {
-    background: #ff004f;
+    background: #ae3806;
     position: fixed;
     top: 0;
     right: -200px;
