@@ -87,7 +87,7 @@ nav ul li a:hover::after {
 /* ------------------about------------ */
 #about {
   margin-top: 100px;
-  padding: 80px o;
+  padding: 80px 1px;
   color: #ababab;
 
 }
@@ -99,13 +99,13 @@ nav ul li a:hover::after {
 }
 
 .about-col-1 {
-  flex-basis: 35%;
+  flex-basis: 32%;
 
 }
 
 .about-col-1 img {
   width: 100%;
-  border-radius: 22px;
+  border-radius: 25px;
 }
 
 .about-col-2 {
@@ -400,7 +400,7 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url(mobile3.jpeg);
+    background-image: url(jana.png);
   }
 
   .header-text {
